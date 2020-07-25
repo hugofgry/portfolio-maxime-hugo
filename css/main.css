@@ -48,7 +48,7 @@ ul, li {
     cursor: pointer;
     width: 200px;
     border: 0;
-    text-align: center;
+    text-align: center;    
 }
 /* -----------------------------------------------------------------Logo de mon nom au debut---------------------------------------------------------------------------------- */
 .logo {
@@ -199,110 +199,45 @@ ul, li {
     margin-right: 25px;
 }
 /* -----------------------------------------------------------------esthetique du footer-------------------------------------------------------------------------------------- */
-.footer {
-  background-color: #FFFFFF;
-  line-height: 1px solid #DDDDDD;
-  margin-top: 100px;
+footer {
+  margin-top: 50px;
+}
+
+.socials__item a {
+    width: 52px;
+    height: 52px;
+    display: block;
+}
+
+.socials__item_in a {
+    background: url('../img/fb.png') no-repeat center center;
+}
+
+.socials__item_li a {
+    background: url('../img/tw.png') no-repeat center center;
+    margin: 0 7px;
+}
+
+.socials__item_g a {
+    background: url('../img/g.png') no-repeat center center;
 
 }
 
-.footer nav > ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  font-weight: normal;
-}
-.footer nav > ul a:not(.btn) {
-  color: #777777;
-  display: block;
-  margin-bottom: 3px;
-}
-.footer nav > ul a:not(.btn):hover, .footer nav > ul a:not(.btn):focus {
-  color: #777777;
-}
-.footer .social-area {
-  padding: 15px 0;
-}
-.footer .social-area h5 {
-  padding-bottom: 10px;
-}
-.footer .social-area > a:not(.btn) {
-  color: #777777;
-  display: inline-block;
-  vertical-align: top;
-  padding: 10px 5px;
-  font-size: 20px;
-  font-weight: normal;
-  line-height: 20px;
-  text-align: center;
-}
-.footer .social-area > a:not(.btn):hover, .footer .social-area > a:not(.btn):focus {
-  color: #777777;
-}
-.footer .copyright {
-  color: #777777;
-  padding: 10px 15px;
-  margin: 15px 3px;
-  line-height: 20px;
-  text-align: center;
-}
-.footer hr {
-  border-color: #DDDDDD;
-}
-.footer .title {
-  color: #777777;
+.line {
+    background: #52535e;
+    height: 1px;
+    margin-bottom: 70px;
+    margin-top: 15px;
 }
 
-
-.footer:not(.footer-big) nav > ul {
-  font-size: 16px;
-}
-.footer:not(.footer-big) nav > ul li {
-  margin-left: 20px;
-  float: left;
-}
-.footer:not(.footer-big) nav > ul a {
-  padding: 10px 0px;
-  margin: 15px 10px 15px 0px;
-}
-.footer-color-gray {
-  background-color: #F5F5F5;
+.credits {
+    margin-top: 3px;
+    text-align: center;
 }
 
-.footer-color-black,
-.footer-transparent {
-  background-color: rgba(30, 30, 30, 0.97);
-  color: #DDDDDD;
-}
-.footer-color-black nav > ul a,
-.footer-transparent nav > ul a {
-  color: #FFFFFF;
-}
-.footer-color-black nav > ul a:hover, .footer-color-black nav > ul a:focus,
-.footer-transparent nav > ul a:hover,
-.footer-transparent nav > ul a:focus {
-  color: #777777;
-}
-.footer-color-black .social-area > a:not(.btn),
-.footer-transparent .social-area > a:not(.btn) {
-  color: #FFFFFF;
-}
-.footer-color-black .social-area > a:not(.btn):hover, .footer-color-black .social-area > a:not(.btn):focus,
-.footer-transparent .social-area > a:not(.btn):hover,
-.footer-transparent .social-area > a:not(.btn):focus {
-  color: #777777;
-}
-.footer-color-black .btn-social,
-.footer-transparent .btn-social {
-  color: #FFFFFF;
-}
-.footer-color-black hr,
-.footer-transparent hr {
-  border-color: #444444;
-}
-.footer-color-black .title,
-.footer-transparent .title {
-  color: #DDDDDD;
+.end {
+    position: relative;
+    margin-bottom: 10px;
 }
 
 @media screen and (max-width: 720px) {
@@ -345,5 +280,78 @@ ul, li {
     height: 60px;
     background-size: 201px 165px;
     left: 10px;
+}
+/*----------------------------------------------------contenu------------------------------------------------------------*/
+    .collage img {
+      display: block;
+      width: 133px;
+      height: 145px;
+      position: absolute;
+      left: 50px;
+      bottom: 445px;
+      box-shadow: 10px 20px 50px rgba(0,0,0,0.25);
+    }
+
+    .easy__title {
+      position: relative;
+      font-size: 24px;
+      left: 120px;
+      top: 10px;
+    }
+
+    .about {
+      margin-top: 60px;
+    }
+
+    .collage {
+      position: absolute;
+      width: 10%;
+    }
+    .easy {
+      margin-left: 0;
+      margin-top: 110px;
+    }
+    .contributor-carousel .owl-nav {
+      margin-top: 40px;
+    }
+
+    .you {
+      position: relative;
+      width: 100%;
+    }
+
+    .owl-carousel__play {
+      display: block;
+      background: url(../img/play2.svg);
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      left: 53%;
+      top: 60%;
+      margin-left: -32px;
+      margin-top: -32px;
+      cursor: pointer;
+    }
+
+    .serv-list__left {
+      margin-left: 27px;
+    }
+    .serv-list__right {
+      margin-right: 37px;
+    }
+
+    .problems {
+      padding-top: 10px;
+    }
+
+    .contributor {
+      margin-top: 50px;
+    }
+
+    .cont-photo {
+      position: absolute;
+      width: 30%;
+    }
+
 }
 
