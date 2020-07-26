@@ -8,47 +8,82 @@ body {
     font-size: 18px;
 }
 
-ul, li {
+ul, ol {
     display: block;
     padding: 0;
     margin: 0;
 }
 
-.main-header {
-    position: relative;
-    padding-top: 10px;
-    top: 0px;
-    background: grey;
-
-}
-.menu {
-    margin-top: 15px;
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
-.menu__item {
-    font-weight: 700;
-    font-size: 14px;
+.btn-navigation {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  z-index: 20;
+  cursor: pointer;
 }
 
-.menu__item a {
-    color: #000000;
-    text-transform: uppercase;
+.btn-navigation .barre {
+width: 30px;
+height: 3px;
+background: #111;
+margin-top: 3px;
+transition: background .s ease-in-out;
+-webkit-transition:background .6s ease-in-out;
+}
+
+.btn-navigation .barre.white {
+background: #fff;
+}
+
+.navigation {
+  position: fixed;
+  right: 0;
+  padding: 30px;
+  background: #333;
+  width: 20%;
+  height: 100%;
+  transition: transform .6s ease-in-out;
+  -webkit-transition: transform .6s ease-in-out;
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+.navigation.isOpen {
+
+  transform: translateX(0%);
+  -webkit-transform: translateX(0%);
+}
+
+.navigation ul{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+
+}
+
+.navigation ul li {
+  margin: 10px 0;
+}
+
+.navigation ul li a{
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: .070em;
+  font-weight: 800px;
 }
 /* ---------------------------------------------------------------esthetique bouton contact----------------------------------------------------------------------------------- */
-.cta {
-    background: #000000;
-    color: #ffffff;
-    font-size: 14px;
-    border-radius: 3px;
-    text-transform: uppercase;
-    font-weight: 700;
-    padding: 10px 0 ;
-    margin-top: 5px;
-    display: block;
-    cursor: pointer;
-    width: 200px;
-    border: 0;
-    text-align: center;
+
+.cta{
+  color: white;
+  text-align: center;
 }
 /* -----------------------------------------------------------------Logo de mon nom au debut---------------------------------------------------------------------------------- */
 .logo {
