@@ -80,12 +80,12 @@ background: #fff;
   font-weight: 800px;
 }
 /* ---------------------------------------------------------------esthetique bouton contact----------------------------------------------------------------------------------- */
-<<<<<<< HEAD
+
 
 .cta{
   color: white;
   text-align: center;
-=======
+}
 .cta {
     background: #000000;
     color: #ffffff;
@@ -99,8 +99,8 @@ background: #fff;
     cursor: pointer;
     width: 200px;
     border: 0;
-    text-align: center;    
->>>>>>> 67c1f49f779f89b1f8e3257e47b2e9f6f44ea8d0
+    text-align: center;
+
 }
 /* -----------------------------------------------------------------Logo de mon nom au debut---------------------------------------------------------------------------------- */
 .logo {
