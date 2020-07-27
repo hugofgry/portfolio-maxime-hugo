@@ -264,6 +264,43 @@ background: #fff;
         margin-top: 40px;
     }
 
+       .easy__title {
+      position: relative;
+      font-size: 24px;
+      left: 120px;
+      top: 10px;
+    }
+
+    .about {
+      margin-top: 60px;
+    }
+
+
+    .contributor-carousel .owl-nav {
+      margin-top: 40px;
+    }
+
+    .serv-list__left {
+      margin-left: 27px;
+    }
+    .serv-list__right {
+      margin-right: 37px;
+    }
+
+    .problems {
+      padding-top: 10px;
+    }
+
+    .contributor {
+      margin-top: 50px;
+    }
+
+    .cont-photo {
+      position: absolute;
+      width: 30%;
+    }
+
+}
 
 
 
